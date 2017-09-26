@@ -1,101 +1,305 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0039)http://oreil.ly/java_8_lambdas%E3%80%82 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta charset="utf-8" />
-	<title>Index</title>
-	<style type="text/css">
-		* {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-		.back {
-			width: 1260px;
-			height: 765px;
-			background: url("img/bac.jpg")
-		}
-		.box_head {
-			width: 1360px;
-			height: 90px;
-			list-style: none;
-			background: chartreuse;
-		}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="http://oreil.ly/favicon.ico">
 
-		.box_head>li {
-			float: left;
-			width: 150px;
-			height: 90px;
-			line-height: 100px;
-			margin-left: 10px;
-			text-align: center;
-		}
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, max-age=0, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="robots" content="noindex">
 
-		.box_head>li:nth-child(2)>img {
-			margin-left: -170px;
-			display: none;
-		}
+    <title>Bitly | Page Not Found | 404</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
 
-		.box_head>li:nth-child(3)>img {
-			width: 600px;
-			height: 407px;
-			margin-left: -330px;
-			display: none;
-		}
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            min-height: 600px;
 
-		.box_head>li:nth-child(4)>img {
-			width: 600px;
-			height: 407px;
-			margin-left: -490px;
-			display: none;
-		}
+        }
 
-		.box_head>li:hover {
-			background-color: cyan;
-		}
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            color: #333;
+            background: #F5D1E3 url(/static/graphics/sky-404.png) repeat-x 0 0;
+            color: #FFF;
+            overflow-x: hidden;
+            position: relative;
+        }
 
-		.box_head>li:hover>img {
-			display: block;
-		}
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        input,
+        select,
+        option,
+        textarea {
+            font-size: 12px;
+            font-family: Arial, sans-serif;
+        }
 
-		.box_head>li:hover>.inner {
-			display: block;
-			background-color: bisque;
-		}
+        a {
+            text-decoration: none;
+            color: #69f;
+            outline: none;
+        }
 
-		.inner {
-			/*display: block;*/
-			display: none;
-		}
+        h1 {
+            font-size: 24px;
+            line-height: 1.1em;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
 
-		.inner>li:hover {
-			background: cornflowerblue;
-		}
-	</style>
+        p {
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+
+        #ripple-control {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            z-index: 10;
+        }
+
+        #ripple {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            margin-bottom: -5px;
+        }
+
+        div#ripple {
+            position: absolute;
+            top: 325px;
+            background-color: #68A8DC;
+            bottom: 5px;
+            min-height: 400px;
+            opacity: .7;
+            left: 0px;
+        }
+
+        canvas#ripple {
+            height: 100%;
+        }
+
+        #fish {
+            position: absolute;
+            left: 60%;
+            top: 225px;
+            z-index: 1;
+        }
+
+        #text {
+            position: absolute;
+            top: 60%;
+            left: 100px;
+            z-index: 5;
+        }
+
+        #cloud1 {
+            position: absolute;
+            top: 50px;
+            width: 189px;
+            height: 88px;
+            left: 50px;
+            background: transparent url(/static/graphics/cloud1-404.png) no-repeat scroll 0 0;
+        }
+
+        #cloud2 {
+            position: absolute;
+            top: 220px;
+            width: 69px;
+            height: 29px;
+            left: 275px;
+            background: transparent url(/static/graphics/cloud2-404.png) no-repeat scroll 0 0;
+        }
+
+        #gull {
+            position: absolute;
+            top: 150px;
+            left: 75px;
+            margin-top: 10px;
+        }
+
+        .bottomLinkList {
+            position: absolute;
+            bottom: 5px;
+            height: 30px;
+            line-height: 30px;
+            left: 50%;
+            margin-left: -275px;
+            width: 550px;
+            z-index: 500;
+            text-align: center;
+        }
+
+        .bottomLinkList li {
+            list-style-type: none;
+            float: left;
+            width: 100px;
+            color: #FFF;
+            height: 30px;
+        }
+
+        .bottomLinkList li a {
+            display: block;
+            color: #FFF;
+        }
+
+        .copy {
+            margin-top: -4px;
+        }
+
+        .tm {
+            vertical-align: super;
+            font-size: 10px;
+        }
+    </style>
+    <!--[if lte IE 8]>
+        <style type="text/css">
+            .copy {
+                margin-top: -2px;
+            }
+            div#ripple {
+            filter: alpha(opacity=70);
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+            }
+        </style>
+    <![endif]-->
+    <script async="" src="http://www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
 </head>
+<div class="head-bar" id="detect" style="background-color: rgb(240, 240, 240) !important; z-index: 99999 !important; font-size: 12px !important; color: rgb(51, 51, 51) !important; position: fixed; width: 100%; height: 36px; border-bottom: 1px solid rgb(193, 193, 193); border-top: 1px solid rgb(255, 255, 255);">
+    <img id="baidu_fanyi_logo" src="chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/logo.png" style="position: fixed; left: 15px; top: 6px; height: 21px; width: 66px;">
+    <pt id="detect-left-p" style="font-size: 12px !important; color: rgb(51, 51, 51) !important; position: fixed; left: 120px; top: 12px;">检测到当前网页不是中文网页，是否要翻译成中文？</pt>
+    <div id="select-translate-box"></div>
+    <div id="detect-translate" style="cursor: pointer !important; border-radius: 3px !important; color: white !important; font-size: 12px !important; text-align: center !important; line-height: 23px !important; padding: initial; position: fixed; margin: 0px; left: 430px; top: 7px; background-color: rgb(67, 149, 255); border: none; height: 23px; width: 60px;">翻译</div>
+    <div id="detect-no-translate" style="border-radius: 3px !important; cursor: pointer !important; font-size: 12px !important; color: rgb(51, 51, 51) !important; text-align: center !important; line-height: 23px !important; padding: initial; position: fixed; margin: 0px; left: 500px; top: 7px; background-color: rgb(251, 251, 251); border: none; height: 23px; width: 75px;">不翻译</div>
+    <a id="detect-no-more" href="http://oreil.ly/java_8_lambdas%E3%80%82#" style="font-size: 12px !important; color: rgb(51, 51, 51) !important; position: fixed; left: 585px; top: 12px; text-decoration: none;">不再提示</a>
+    <div id="detect-cross">
+        <img id="detect-cross-img" style="cursor: pointer !important; float: right; margin-right: 20px; margin-top: 8px; width: 18px;"
+            src="chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/close.png">
+    </div>
+</div>
 
-<body>
-	<div class="back"></div>
+<body style="position: static; margin-top: 36px !important;">
+    <div id="text">
+        <h1>Something's wrong here...</h1>
+        <p>Uh oh, Bitly couldn't find a link for the bitly URL you clicked.</p>
+        <p>Most Bitlinks are 4-6 characters, and only include letters and numbers (and are case sensitive).</p>
+    </div>
+    <div id="ripple-control"></div>
+    <img id="fish" src="./Bitly _ Page Not Found _ 404_files/fish-404.png" style="top: -9999px; left: -9999px;">
 
-	<ul class="box_head">
-		<li>我的课程
-			<ul class="inner">
-				<li>Java</li>
-				<li>Java</li>
-				<li>Java</li>
-				<li>Java</li>
-			</ul>
-		</li>
-		<li>我的课程
-			<img src="img/ju.jpg" />
-		</li>
-		<li>我的课程
-			<img src="img/mao.jpg" />
-		</li>
-		<li>我的课程
-			<img src="img/gou.jpg" />
-		</li>
-	</ul>
+
+    <div id="cloud1" style="left: 516px;"></div>
+    <div id="cloud2" style="left: 1207px;"></div>
+    <img id="gull" src="./Bitly _ Page Not Found _ 404_files/gulls-404.png" style="top: -9999px; left: -9999px;">
+
+    <ul class="bottomLinkList">
+        <li>
+            <a href="http://blog.bitly.com/">Blog</a>
+        </li>
+        <li>
+            <a href="https://bitly.com/">Home</a>
+        </li>
+        <li>
+            <a href="mailto:support@bitly.com">Contact Us</a>
+        </li>
+        <li class="copy">© 2016 Bitly
+            <span class="tm">TM</span>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {            
+i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        (function (w, d) {
+            var gaId;
+            if (/bitly\.com$/i.test(window.location.hostname)) {
+                gaId = 'UA-25224921-3';
+            } else {
+                gaId = 'UA-25224921-11';
+            }
+            w.ga('create', gaId, 'auto');
+            w.ga('send', 'pageview');
+        })(window, document);
+
+    </script>
+
+
+    <script type="text/javascript">
+        /*
+         * Ripple Effect based on:
+         * ------------------------
+         * Ripple v1.0
+         * Copyright 2010 John Pezzetti
+         * By John Pezzetti of http://www.otherhalffull.com
+         *
+        */
+        (function () {            
+function F() {
+                if (g.getContext) {
+                    var a, b = a = 0; if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) a = document.documentElement.clientWidth, b = document.documentElement.clientHeight; if (document.body && (document.body.clientWidth || document.body.clientHeight)) a = Math.max(a, document.body.clientWidth), b = Math.max(b, document.body.clientHeight); a = [a, b]; e = a[1]; d = a[0] + 1; r = Math.floor(0.5 * e); i = e - r; j = i - G; g.setAttribute("width", d); g.setAttribute("height",
+                        e); g.style.width = d + "px"; g.style.height = e + "px"; s = [Math.floor(0.75 * d), 0]; c = g.getContext("2d"); c.fillStyle = "rgba(104,168,220,.8)"; v()
+                }            
+} function v() { c.fillRect(0, i, d, e - j) } function m(a, b) { if (!w) k.style.top = "-9999px", k.style.left = "-9999px", c.clearRect(0, j, d, e - j); c.clearRect(s[0], s[1] - 5, n[0], n[1]); a = a || Math.floor(0.6 * d); b = b || 0; b += r - 0.5 * n[1]; c.drawImage(k, a, b, n[0], n[1]); s = [a, b]; w || (v(), w = !0) } function O() {
+                midPointY = Math.sin(h * 10 * P) * (o - h) * Q; h <= o && (f[p] = [0, midPointY], h % 9 == 0 && h % 2 == 1 && (f[z] = [-1, midPointY], z++));
+                c.clearRect(0, j, d, e - j); m(Math.floor(0.6 * d), h < o ? Math.floor(midPointY) : 0); c.beginPath(); c.moveTo(0, i); for (var a = [0, i], b = 0; b < t; b++)if (f[b]) { b < p && (f[b][0] = f[b][0] * R - H, f[p - b + p] = [-f[b][0], f[b][1]]); var q = f[b][0] + I, A = f[b][1] + i; c.bezierCurveTo((q - a[0]) / 2 + a[0], a[1], q - (q - a[0]) / 2, A, q, A); a[0] = q; a[1] = A } c.lineTo(d, i); c.lineTo(d, e); c.lineTo(0, e); c.closePath(); c.fill(); h++; h == o && (B = !1); h >= o * 2 && clearInterval(C)            
+} function D(a, b) {
+                if (!J) return !1; b && c.clearRect(x, y, b.w, b.h); a = a || E[0]; x = K[0]; y = K[1] + a.mt; c.drawImage(l, Math.abs(a.l),
+                    Math.abs(a.t), a.w, a.h, x, y, a.w, a.h)
+            } function S() { var a = -1, b = 0, c = E.length, d; clearInterval(L); L = setInterval(function () { b = ++a > c - 1 ? c * 2 - 2 - a : a; d = E[b]; D(d, M); M = d; a >= c * 2 - 2 && (a = 0) }, 200) } var u = function (a, b, c) { var d = c, c = function (b) { d.call(a, b) }; return a.attachEvent ? a.attachEvent("on" + b, c) : a.addEventListener(b, c, !1) }; if (!window.getComputedStyle) window.getComputedStyle = function (a) { return a.currentStyle }; var t = 13, Q = 0.3, d = 960, e = 600, G = 30, r = Math.floor(0.5 * e), R = 1.01, H = 20, i = e - r, j = i - G, o = (t - 3) * 9, p = Math.floor(t / 2), I, g,
+                c, C, B = !1, P = Math.PI / 180, f, z, h, k, s = [Math.floor(0.75 * d), 0], n = [236, 195], w, l, L, J, M, K = [75, 150], E = [{ h: 58, w: 140, t: 0, l: 0, mt: 10 }, { h: 72, w: 150, t: -64, l: 0, mt: 0 }, { h: 61, w: 150, t: -151, l: 0, mt: 30 }], N = !1; g = document.createElement("canvas"); g.getContext && (N = !0, document.body.removeChild(document.getElementById("ripple")), g.setAttribute("id", "ripple"), document.body.appendChild(g), k = document.getElementById("fish"), l = document.getElementById("gull"), l.setAttribute("src", "/static/graphics/gulls-404.png")); N && (function () {                    
+try {
+                        if (fish.complete) m();
+                        else if (parseInt(getComputedStyle(k).height, 10)) setTimeout(m, 1E3); else throw "no fish";
+                    } catch (a) { u(k, "load", function () { m() }) } u(l, "load", function () { J = !0; l.style.top = "-9999px"; l.style.left = "-9999px"; D(0, 0); S() }); u(document.getElementById("ripple-control"), "mouseover", function (a) { if (g.getContext && !B) clearInterval(C), p = Math.floor(t / 2), I = a.pageX, z = 1, h = 0, f = [], f[0] = [H, 0], C = setInterval(O, 30), B = !0 }); u(window, "resize", function () { F(); m(); v(); D() })                
+}(), F()); (function () {
+                    var a = 0, b = document.getElementById("cloud1"),
+                    c = document.getElementById("cloud2"), e = parseInt(getComputedStyle(b).left, 10), f = parseInt(getComputedStyle(c).left, 10); setInterval(function () { if (++a == 2) a = 0, e += 1, b.style.left = e + "px"; f += 1; c.style.left = f + "px"; e > d + 50 && (e = -200); f > d + 50 && (f = -100) }, 50)                
+})()
+        })();
+
+    </script>
+    <canvas id="ripple" width="1350" height="600" style="width: 1350px; height: 600px;"></canvas>
+
+
+    <div style="position: static; display: none; width: 0px; height: 0px; border: none; padding: 0px; margin: 0px;">
+        <div id="trans-tooltip">
+            <div id="tip-left-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left-top.png&quot;);"></div>
+            <div id="tip-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-top.png&quot;) repeat-x;"></div>
+            <div id="tip-right-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right-top.png&quot;);"></div>
+            <div id="tip-right" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right.png&quot;) repeat-y;"></div>
+            <div id="tip-right-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-right-bottom.png&quot;);"></div>
+            <div id="tip-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-bottom.png&quot;) repeat-x;"></div>
+            <div id="tip-left-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left-bottom.png&quot;);"></div>
+            <div id="tip-left" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-left.png&quot;);"></div>
+            <div id="trans-content"></div>
+        </div>
+        <div id="tip-arrow-bottom" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-arrow-bottom.png&quot;);"></div>
+        <div id="tip-arrow-top" style="background: url(&quot;chrome-extension://ikkbfngojljohpekonpldkamedehakni/imgs/map/tip-arrow-top.png&quot;);"></div>
+    </div>
 </body>
 
 </html>
